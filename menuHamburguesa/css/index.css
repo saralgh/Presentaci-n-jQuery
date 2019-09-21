@@ -1,0 +1,113 @@
+html, body{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	overflow-y: auto;
+
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	position: relative;
+	width: 80%;
+	height: 20%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+header h1{
+	width: 100%;
+	height: 50%;
+	margin: 3% 0 0 0;
+	
+	font-size: 2em;
+	font-weight: bolder;
+
+	text-align: center;
+}
+
+header #iconMenu{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	font-size: 2em;
+}
+
+nav{
+	width: 20%;
+	height: 100%;
+
+	background-color: #8ADDFF;
+	
+	position: absolute;
+	top: 0;
+	left: -20%;
+}
+
+nav i{
+	position: absolute;
+	right: 1%;
+	top: 1%;
+
+	font-size: 2em;
+}
+
+nav .menuPrincipal{
+	position: relative;
+	margin-top: 25%;
+
+	font-size: 1.5em;
+}
+
+nav .menuPrincipal li{
+	width: 100%;
+
+	padding: 5%; 
+	box-sizing: border-box;
+}
+
+nav .menuPrincipal li a{
+	text-decoration: none;
+	color: #000;
+}
+
+nav .menuPrincipal li .menuSecundario{
+	font-size: 0.7em;
+	display: none;
+}
+
+nav .menuPrincipal li .menuSecundario li{
+	padding-top: 10%;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+
+section{
+	width: 80%;
+	height: 80%;
+
+	margin: auto;
+	font-size: 1.5em;
+}
+
+section h2{
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2;
+}
+
+section article{
+	width: 100%;
+	height: 100%;
+}
+
+section article p{
+	text-align: justify;
+}
+
+section article img{
+	display: block;
+	margin: auto;
+}

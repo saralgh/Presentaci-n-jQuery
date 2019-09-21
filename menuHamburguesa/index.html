@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu desplegable con jQuery + Animaciones</title>
+
+	<!--  META TAGS  -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<!--  LINK CSS  -->
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<!--  LINK FONT AWESOME  -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!--  LINK JS  -->
+		<!--  LINK JQUERY  -->
+		<script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+	<!-- <script type="text/javascript" src="./js/index.js"></script> -->
+	<script type="text/javascript" src="./js/menuHamburguesaJS.js"></script>
+	
+</head>
+<body>
+
+	<header>
+		<i class="fas fa-bars" id="iconMenu"></i>
+		<h1>Men&uacute; Hamburguesa</h1>
+	</header>
+
+	<nav>
+		<i class="far fa-times-circle" id="closebtn"></i>
+		<ul class="menuPrincipal" id="menuPrincipal">
+			<li><a href="#">Opci&oacute;n 01</a></li>
+			<li><a href="#">Opci&oacute;n 02</a></li>
+			<li id="subMenu"><a href="#">Opci&oacute;n 03</a>
+				<ul class="menuSecundario" id="menuSecundario">
+					<li><a href="#">SubSecci&oacute;n 01</a></li>
+					<li><a href="#">SubSecci&oacute;n 02</a></li>
+					<li><a href="#">SubSecci&oacute;n 03</a></li>
+				</ul>
+			</li>	
+			<li><a href="#">Opci&oacute;n 04</a></li>
+			<li><a href="#">Opci&oacute;n 05</a></li>
+		</ul>
+	</nav>
+
+	<section>
+		<h2>Contenido principal</h2>
+		<article>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+			<img src="./img/jqueryLogo.jpg" alt="jQuery logo">
+		</article>
+	</section>
+
+</body>
+</html>
